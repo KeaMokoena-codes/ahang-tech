@@ -42,3 +42,13 @@ In many construction environments, information is lost between paper logs and ve
 ### Installation
 1. Clone the repository:
    ```bash
+   https://github.com/KeaMokoena-codes/ahang-tech.git
+
+## Future Roadmap
+* **Recursive Kit Management:** Automatically track sub-tools within larger containers.
+
+* **Weather Integration:** Auto-log site conditions using external APIs for outdoor asset safety.
+
+* **PDF Reporting:** Generate weekly usage reports for site supervisors.
+
+**NB:** This project is still in development.
