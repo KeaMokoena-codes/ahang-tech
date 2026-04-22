@@ -1,11 +1,11 @@
 equipments = { 
-    "tool" : {"name": "air_compressor", 
+    "tool1" : {"name": "air_compressor", 
                "id": 111, 
                "status": "Available"},
-    "tool" : {"name": "plate_compactor",
+    "tool2" : {"name": "plate_compactor",
                "id": 112,
                "status": "Available"},
-    "tool" : {"name": "concrete_mixer",
+    "tool3" : {"name": "concrete_mixer",
                "id": 113,
                "status": "Available"},         
 }
