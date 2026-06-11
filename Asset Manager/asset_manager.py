@@ -1,15 +1,17 @@
-equipments = { 
-    "tool1" : {"name": "air_compressor", 
-               "id": 111, 
-               "status": "Available"},
-    "tool2" : {"name": "plate_compactor",
-               "id": 112,
-               "status": "Available"},
-    "tool3" : {"name": "concrete_mixer",
-               "id": 113,
-               "status": "Available"},         
-}
+equipments = [{"tool": "air_compressor", "id": 111, "status": "Available"}, 
+             {"tool": "plate_compactor","id": 112, "status": "Available"}, 
+             {"tool": "concrete_mixer", "id": 113, "status": "Available"}]         
 
-for key, dict2 in equipments.items():        
-    equipments["tool"]["status"] = "Changed"
-    print(f"Tool: {key}, Description: {dict2}")
+def list_assets():
+    print("\n--- Current Site Assets ---")
+    for tools in equipments:
+        print(f"Tool: {tools["tool"]}, ID: {tools["id"]}, Status: {tools["status"]}")
+
+list_assets()
+
+# def list_assets():
+#     """Prints all assets currently in the system."""
+#     print("\n--- Current Site Assets ---")
+#     for item in inventory:
+#         print(f"ID: {item['id']} | {item['name']} | Status: {item['status']} | Assigned To: {item['assigned_to']}")
+#     print("---------------------------\n")
